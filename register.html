@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Registration page</title>
+</head>
+
+<body>
+
+    <header> <img src="https://moodle.iimb.ac.in/portal/img/logo_banner.jpg" alt="">
+        <h1>IIMB fest 2026</h1>
+        <p>Welcome to IIMB Fest 2026, best fets of Banglore</p> 
+       <br> <nav> <a href="./index.html">Go back to home page</a></nav> <br>
+    </header>
+    <main>
+        
+        <section>
+           
+            <form action="/registration">
+                <label for="1">Name</label>
+                <input type="text" name="name" id="1" required minlength="4" maxlength="18" />
+                <br><br>
+                <label for="2">Age</label>
+                <input type="number" name="age" id="2" required /><br><br>
+                <label for="3">Email</label>
+                <input type="email" name="email" id="3">
+                <br><br>
+                <label for="4">T-Shirt Size</label>
+                <select name="t-shirt-size" id="4">
+                    <option value="">please select an option</option>
+                    <option value="38">38</option>
+                    <option value="40">40</option>
+                    <option value="42">42</option>
+                    <option value="44">44</option>
+                    <option value="46">46</option>
+                </select>
+                <br><br>
+                <label for="checkbox1">I agree to the terms and conditions</label>
+                <input type="checkbox" name="terms and condition" id="checkbox1" required>
+                <br></br>
+                <label for="student">Student</label>
+                <input type="radio" name="type" id="student" value="student">
+                <label for="allumini">Allumini</label>
+                <input type="radio" name="type" id="allumini" value="allumini">
+
+
+                <br><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+       
+
+
+    </main>
+</body>
+
+</html>
